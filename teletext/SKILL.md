@@ -1,9 +1,10 @@
 ---
 name: teletext
-description: "This skill should be used when transferring conversation context between AI sessions. It compiles all conversation history, decisions, artifacts, performance, preferences, and open work into a structured, copy/paste-ready handoff package with an actionable boot sequence. Triggers on: 'teletext', 'transfer context', 'create a handoff', 'compile context', 'session handoff', 'context package', or when the user wants to continue a conversation in a new AI session. Adapts automatically — lightweight for short sessions, comprehensive for deep ones. Supports updating previous packages. Do NOT use for simple conversation summaries, recaps, or when the user is not switching sessions."
+description: "Package a conversation for continuation in a new AI session. Compiles decisions, facts, performance, preferences, and open work into a structured handoff with an actionable boot sequence. Triggers on: 'teletext', 'transfer context', 'create a handoff', 'compile context', 'session handoff', 'context package', 'package this up', 'save this conversation', 'continue this in a new chat', 'I'm switching sessions', or when the user wants to continue work in a different AI session. Adapts automatically — lightweight for short sessions, comprehensive for deep ones. Supports updating previous packages. Do NOT use for simple conversation summaries, recaps, or when the user is not switching sessions."
 metadata:
-  author: Blake
-  version: 3.0.0
+  author: Blake Graham
+  version: 3.0.1
+  license: MIT
 ---
 
 # TELEtext — Context-Transfer Compiler
