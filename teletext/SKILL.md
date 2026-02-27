@@ -283,6 +283,10 @@ Decision Log will be minimal. Progress Log, Facts, and Open Loops carry the valu
 **Previous teletext file exists in working directory:**
 Read it, compile a full updated package with Checkpoint Header showing what changed.
 
+## Standalone Prompt
+
+A portable version of TELEtext exists as `teletext-prompt.md` in the repo root (https://github.com/bjg4/teletext). If a user asks for a version they can paste into other AI tools, point them there.
+
 ## References
 
 - `references/teletext-template.md` — Full section-by-section template for all tiers. Read before compiling.

@@ -49,9 +49,13 @@ TELEtext adapts automatically based on session weight:
 
 The boot sequence (~10 lines) gives the receiving AI enough to start working before reading the full package.
 
+## Use anywhere
+
+Don't use Claude Code? Copy the prompt from [`teletext-prompt.md`](teletext-prompt.md) and paste it into any AI conversation — ChatGPT, Gemini, or anything else. It's a self-contained instruction that works without the skill infrastructure.
+
 ## Compatibility
 
-Works with any AI coding agent that supports the [Agent Skills](https://github.com/anthropics/skills) specification (SKILL.md format). Built for Claude Code.
+The skill works with any AI coding agent that supports the [Agent Skills](https://github.com/anthropics/skills) specification (SKILL.md format). The standalone prompt works in any AI chat.
 
 ## License
 
